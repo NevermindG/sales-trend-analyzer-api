@@ -1,0 +1,31 @@
+# Spanish
+user:
+  name:
+    notEmpty: "El nombre no puede estar vacío"
+  lastName:
+    notEmpty: "El apellido no puede estar vacío"
+  age:
+    min: "La edad debe ser mayor o igual a {value}"
+  email:
+    notEmpty: "El correo electrónico no puede estar vacío"
+    invalid: "El correo electrónico no es válido"
+  password:
+    notEmpty: "La contraseña no puede estar vacía"
+    size: "La contraseña debe tener al menos {min} caracteres y contener al menos un carácter especial"
+    pattern: "La contraseña debe contener al menos un carácter especial"
+
+# English
+user-en:
+  name:
+    notEmpty: "Name cannot be empty"
+  lastName:
+    notEmpty: "lastName cannot be empty"
+  age:
+    min: "Age must be greater than or equal to {value}"
+  email:
+    notEmpty: "Email cannot be empty"
+    invalid: "Email is not valid"
+  password:
+    notEmpty: "Password cannot be empty"
+    size: "Password must be at least {min} characters long and contain at least one special character"
+    pattern: "Password must contain at least one special character"

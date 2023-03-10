@@ -1,0 +1,12 @@
+# config for load custom message in application
+spring:
+  messages:
+    basename: messages
+    cache-duration: PT10M
+    encoding: UTF-8
+# Default language application
+  web:
+    locale: es
+# language for users in application
+    locale-resolver: fixed
+    locale-languages: es,en
