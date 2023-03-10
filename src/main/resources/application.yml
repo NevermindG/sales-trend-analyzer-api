@@ -10,3 +10,7 @@ spring:
 # language for users in application
     locale-resolver: fixed
     locale-languages: es,en
+# database connection
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/sales-trend-analyzer-local

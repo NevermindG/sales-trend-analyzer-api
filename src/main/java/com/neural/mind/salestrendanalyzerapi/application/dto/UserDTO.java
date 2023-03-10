@@ -1,11 +1,13 @@
 package com.neural.mind.salestrendanalyzerapi.application.dto;
 
 import jakarta.validation.constraints.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class UserDTO {
 	@NotEmpty(message = "{user.name.notEmpty}")
 	private String name;
